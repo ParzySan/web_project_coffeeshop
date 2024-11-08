@@ -55,11 +55,6 @@
   line-height: 20px;
 }
 
-.header__content {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
 .header__title {
   font-family: "Inter";
   font-style: normal;
