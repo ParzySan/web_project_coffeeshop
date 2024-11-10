@@ -114,7 +114,70 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__tittle">Reservar una mesa</h2>
+
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nombre:</label>
+              <input
+                class="form__input"
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Nombre"
+              />
+
+              <label class="form__label" for="guests"
+                >Número de comensales:</label
+              >
+              <input
+                class="form__input"
+                type="number"
+                id="guests"
+                name="guests"
+                min="1"
+                max="8"
+                required
+                placeholder="1-8"
+              />
+
+              <label class="form__label" for="date">Fecha de reserva:</label>
+              <input
+                class="form__input"
+                type="datetime-local"
+                id="date"
+                name="date"
+                required
+              />
+
+              <label class="form__label" for="email">Correo Electrónico:</label>
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="email@email.com"
+              />
+
+              <button class="form__button" type="submit">
+                Reservar una mesa
+              </button>
+
+              <label class="form__label form__checkbox-label">
+                <input
+                  class="form__checkbox"
+                  type="checkbox"
+                  name="terms"
+                  required
+                />
+                Acepto los términos y condiciones
+              </label>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
