@@ -6,3 +6,13 @@
 @import url(/blocks/reservation.css);
 @import url(/blocks/form.css);
 @import url(/blocks/footer.css);
+
+.content {
+  background-color: #0a2750;
+  background-image: url("/images/background_recipes.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
