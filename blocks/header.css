@@ -49,9 +49,8 @@
   position: absolute;
   top: 124px;
   right: 5px;
-
-  max-width: 646px;
-  max-height: 568px;
+  width: 646px;
+  height: 568px;
 }
 
 .header__footer {
@@ -64,6 +63,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  margin-top: auto;
 }
 
 .header__hora {
@@ -84,4 +84,5 @@
   justify-content: flex-end;
   margin-bottom: 40px;
   margin-right: 80px;
+  z-index: 2;
 }
